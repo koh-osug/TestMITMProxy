@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Test MITM Proxy</string>
+    <string name="heading">Test MITM Proxy</string>
+    <string name="description">Test the mitmproxy.</string>
+    <string name="testCallButton">Test Web Call</string>
+    <string name="exception">Exception</string>
+    <string name="success">Success</string>
+    <string name="success_msg">Test successful.</string>
+</resources>
