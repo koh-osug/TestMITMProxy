@@ -9,6 +9,17 @@ Since Android 7 3rd party applications are no longer using user defined CAs defi
 The [Network Security Configuration](https://developer.android.com/training/articles/security-config) has to be patched to make it work.
 [Apktool](https://ibotpeaches.github.io/Apktool/) is necessary to do this.
 
+# LittleProxy-mitm
+
+When using LittleProxy-mitm the network settings under Android must be set to use a proxy. 
+Go to "Network & internet" -> "WiFi" -> Edit the WiFi connection -> Click the Edit (pencil) icon -> "Advances options"
+
+The LittleProxy-mitm CA must be installed as user credentials. 
+Go to "Security" -> "Encryption & credentials" -> "Install a certificate"
+
+The Chrome browser is using the user defiend CA and will work out of the box. Opera might also work. 
+Firefox is not using these settings and is also not obey a patched network security configuration.
+ 
 ## Steps (Example Opera):
 
  * Unpack APK: `./apktool d opera.apk`
