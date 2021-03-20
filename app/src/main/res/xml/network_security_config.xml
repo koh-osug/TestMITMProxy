@@ -2,8 +2,9 @@
 <network-security-config>
     <base-config>
         <trust-anchors>
-            <certificates src="@raw/mitmproxy"/>
-            <certificates src="system"/>
+            <certificates src="@raw/littleproxy_mitm"/>
+<!--            <certificates src="@raw/mitmproxypem"/>-->
+<!--            <certificates src="system"/>-->
         </trust-anchors>
     </base-config>
 </network-security-config>
